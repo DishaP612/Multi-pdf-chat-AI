@@ -1,0 +1,12 @@
+# Environment
+.env
+venv/
+*.pyc
+__pycache__/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
