@@ -152,8 +152,8 @@ This means the model can **only answer from your actual documents** — no guess
 ## 👩‍💻 Author
 
 **Disha** — Final Year CSE Student
-📧 your-email@example.com
-🔗 [LinkedIn](#) · [GitHub](#)
+📧 dishaprasanna.6125@gmail.com
+
 
 ---
 
