@@ -8,7 +8,7 @@ from langchain_groq import ChatGroq
 import os
 from dotenv import load_dotenv
 load_dotenv()
-GROQ_KEY_DEFAULT = os.getenv("GROQ_API_KEY", "")
+GROQ_KEY_DEFAULT = st.secrets.get("GROQ_API_KEY",os.getenv("GROQ_API_KEY", ""))
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -260,13 +260,7 @@ with st.sidebar:
     st.markdown("---")
 
     # API Key inputs
-    groq_api_key = st.text_input(
-        "🔑 Groq API Key",
-        value=GROQ_KEY_DEFAULT,
-        type="password",
-        placeholder="gsk_...",
-        help="Free key at console.groq.com"
-    )
+    groq_api_key = st.secrets.get("GROQ_API_KEY", GROQ_KEY_DEFAULT)
 
     st.markdown("---")
 
