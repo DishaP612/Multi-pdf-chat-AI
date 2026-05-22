@@ -107,7 +107,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ## ☁️ Live Demo
 
-🔗 **[Try it here → your-app-link.streamlit.app](#)**
+🔗 [**[Try it here → [your-app-link.streamlit.app](https://multi-pdf-chat-ai-e84kxwyta9vyl5nspjpxkn.streamlit.app/)](#)**]
 
 *(Upload any PDF and start asking questions!)*
 
